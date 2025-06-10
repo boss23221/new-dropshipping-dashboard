@@ -23,7 +23,7 @@ import {
 } from 'lucide-react';
 import { Language } from '../i18n/translations';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner'; ✅
 
 interface AliExpressStylePageProps {
   language: Language;
