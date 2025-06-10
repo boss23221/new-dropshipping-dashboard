@@ -55,7 +55,7 @@ interface Category {
   productCount?: number;
 }
 
-export default function AliExpressStylePage({ language }: AliEzpressStylePageProps) {
+export default function AliExpressStylePage({ language }: AliExpressStylePageProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>('computer');
   const [likedProducts, setLikedProducts] = useState<Set<string>>(new Set());
